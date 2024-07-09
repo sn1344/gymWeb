@@ -1,0 +1,78 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url("lion.jpeg");
+    background-color: rgb(1, 1, 14);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.logo {
+    color: rgb(20, 251, 20);
+    max-width: 1000px;
+    font-size:50px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(1, 1, 14); /* Adjusted to match body background */
+    color: white; /* Adjusted to match body text color */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: rgb(1, 1, 14); /* Adjusted to match body background */
+    color: white; /* Adjusted to match body text color */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(4, 180, 4); /* Adjusted to match button color */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(20, 251, 20); /* Adjusted to match button hover color */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+}
+
+.footerText p {
+    margin-top: 11px;
+    color: silver;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Generator</title>
+    <link rel="stylesheet" href="stylesss.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exercise Generator</h1>
+        <label for="bodyPart">Select Body Part:</label>
+        <select id="bodyPart" class="select-box">
+            <option disabled selected value="">Choose the Body Part</option>
+            <option value="chest">Chest</option>
+            <option value="arms">Arms</option>
+            <option value="legs">Legs</option>
+            <option value="back">Back</option>
+        </select>
+        <button onclick="generateExercises()" class="generate-button">Get Exercises</button>
+        <div id="exerciseList" class="exercise-list"></div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
